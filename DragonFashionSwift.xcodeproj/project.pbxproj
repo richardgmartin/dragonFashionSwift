@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A33D28931C5E767C00C8BE86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33D28921C5E767C00C8BE86 /* AppDelegate.swift */; };
+		A33D28951C5E767C00C8BE86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33D28941C5E767C00C8BE86 /* ViewController.swift */; };
+		A33D28981C5E767C00C8BE86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A33D28961C5E767C00C8BE86 /* Main.storyboard */; };
+		A33D289A1C5E767C00C8BE86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A33D28991C5E767C00C8BE86 /* Assets.xcassets */; };
+		A33D289D1C5E767C00C8BE86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A33D289B1C5E767C00C8BE86 /* LaunchScreen.storyboard */; };
+		A33D28A51C5E9A3C00C8BE86 /* Dragon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33D28A41C5E9A3C00C8BE86 /* Dragon.swift */; };
+		A33D28A71C5EA65F00C8BE86 /* DisplayDragonYellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33D28A61C5EA65F00C8BE86 /* DisplayDragonYellViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A33D288F1C5E767C00C8BE86 /* DragonFashionSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragonFashionSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A33D28921C5E767C00C8BE86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A33D28941C5E767C00C8BE86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A33D28971C5E767C00C8BE86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A33D28991C5E767C00C8BE86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A33D289C1C5E767C00C8BE86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A33D289E1C5E767C00C8BE86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A33D28A41C5E9A3C00C8BE86 /* Dragon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dragon.swift; sourceTree = "<group>"; };
+		A33D28A61C5EA65F00C8BE86 /* DisplayDragonYellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayDragonYellViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A33D288C1C5E767C00C8BE86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A33D28861C5E767C00C8BE86 = {
+			isa = PBXGroup;
+			children = (
+				A33D28911C5E767C00C8BE86 /* DragonFashionSwift */,
+				A33D28901C5E767C00C8BE86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A33D28901C5E767C00C8BE86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A33D288F1C5E767C00C8BE86 /* DragonFashionSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A33D28911C5E767C00C8BE86 /* DragonFashionSwift */ = {
+			isa = PBXGroup;
+			children = (
+				A33D28921C5E767C00C8BE86 /* AppDelegate.swift */,
+				A33D28941C5E767C00C8BE86 /* ViewController.swift */,
+				A33D28A41C5E9A3C00C8BE86 /* Dragon.swift */,
+				A33D28961C5E767C00C8BE86 /* Main.storyboard */,
+				A33D28A61C5EA65F00C8BE86 /* DisplayDragonYellViewController.swift */,
+				A33D28991C5E767C00C8BE86 /* Assets.xcassets */,
+				A33D289B1C5E767C00C8BE86 /* LaunchScreen.storyboard */,
+				A33D289E1C5E767C00C8BE86 /* Info.plist */,
+			);
+			path = DragonFashionSwift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A33D288E1C5E767C00C8BE86 /* DragonFashionSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A33D28A11C5E767C00C8BE86 /* Build configuration list for PBXNativeTarget "DragonFashionSwift" */;
+			buildPhases = (
+				A33D288B1C5E767C00C8BE86 /* Sources */,
+				A33D288C1C5E767C00C8BE86 /* Frameworks */,
+				A33D288D1C5E767C00C8BE86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DragonFashionSwift;
+			productName = DragonFashionSwift;
+			productReference = A33D288F1C5E767C00C8BE86 /* DragonFashionSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A33D28871C5E767C00C8BE86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Richard Martin";
+				TargetAttributes = {
+					A33D288E1C5E767C00C8BE86 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = A33D288A1C5E767C00C8BE86 /* Build configuration list for PBXProject "DragonFashionSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A33D28861C5E767C00C8BE86;
+			productRefGroup = A33D28901C5E767C00C8BE86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A33D288E1C5E767C00C8BE86 /* DragonFashionSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A33D288D1C5E767C00C8BE86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A33D289D1C5E767C00C8BE86 /* LaunchScreen.storyboard in Resources */,
+				A33D289A1C5E767C00C8BE86 /* Assets.xcassets in Resources */,
+				A33D28981C5E767C00C8BE86 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A33D288B1C5E767C00C8BE86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A33D28951C5E767C00C8BE86 /* ViewController.swift in Sources */,
+				A33D28931C5E767C00C8BE86 /* AppDelegate.swift in Sources */,
+				A33D28A71C5EA65F00C8BE86 /* DisplayDragonYellViewController.swift in Sources */,
+				A33D28A51C5E9A3C00C8BE86 /* Dragon.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A33D28961C5E767C00C8BE86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A33D28971C5E767C00C8BE86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A33D289B1C5E767C00C8BE86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A33D289C1C5E767C00C8BE86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A33D289F1C5E767C00C8BE86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A33D28A01C5E767C00C8BE86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A33D28A21C5E767C00C8BE86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DragonFashionSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.richardgmartin.DragonFashionSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A33D28A31C5E767C00C8BE86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DragonFashionSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.richardgmartin.DragonFashionSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A33D288A1C5E767C00C8BE86 /* Build configuration list for PBXProject "DragonFashionSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A33D289F1C5E767C00C8BE86 /* Debug */,
+				A33D28A01C5E767C00C8BE86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A33D28A11C5E767C00C8BE86 /* Build configuration list for PBXNativeTarget "DragonFashionSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A33D28A21C5E767C00C8BE86 /* Debug */,
+				A33D28A31C5E767C00C8BE86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A33D28871C5E767C00C8BE86 /* Project object */;
+}
